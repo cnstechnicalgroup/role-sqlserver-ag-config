@@ -21,9 +21,13 @@ In the current version, you can specify the following variables:
 Dependencies
 ------------
 
-Depends upon [role-sqlserver-server](https://github.com/cnstechnicalgroup/role-sqlserver-server)
-Depends upon [role-sqlserver-server](https://github.com/cnstechnicalgroup/role-sqlserver-client)
-Depends upon [role-sqlserver-server](https://github.com/cnstechnicalgroup/role-sqlserver-ha-config)
+Depends upon 
+
+* [role-sqlserver-server](https://github.com/cnstechnicalgroup/role-sqlserver-server)
+
+* [role-sqlserver-server](https://github.com/cnstechnicalgroup/role-sqlserver-client)
+
+* [role-sqlserver-server](https://github.com/cnstechnicalgroup/role-sqlserver-ha-config)
 
 
 License
