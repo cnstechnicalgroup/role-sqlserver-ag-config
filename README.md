@@ -21,7 +21,10 @@ In the current version, you can specify the following variables:
 Dependencies
 ------------
 
-This package has no dependencies.
+Depends upon [role-sqlserver-server](https://github.com/cnstechnicalgroup/role-sqlserver-server)
+Depends upon [role-sqlserver-server](https://github.com/cnstechnicalgroup/role-sqlserver-client)
+Depends upon [role-sqlserver-server](https://github.com/cnstechnicalgroup/role-sqlserver-ha-config)
+
 
 License
 -------
