@@ -1,4 +1,4 @@
-Role: cns.sqlserver-server
+Role: cns.sqlserver-ag-config
 ========
 
 Ansible role install SQL Server Always On Availability Groups with ReadOnly Scale
