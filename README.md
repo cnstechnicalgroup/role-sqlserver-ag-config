@@ -23,11 +23,11 @@ Dependencies
 
 Depends upon 
 
+* [role-sqlserver-client](https://github.com/cnstechnicalgroup/role-sqlserver-client)
+
 * [role-sqlserver-server](https://github.com/cnstechnicalgroup/role-sqlserver-server)
 
-* [role-sqlserver-server](https://github.com/cnstechnicalgroup/role-sqlserver-client)
-
-* [role-sqlserver-server](https://github.com/cnstechnicalgroup/role-sqlserver-ha-config)
+* [role-sqlserver-ha-config](https://github.com/cnstechnicalgroup/role-sqlserver-ha-config)
 
 
 License
