@@ -12,7 +12,7 @@ galaxy_info:
    - name: EL
      versions:
       - 7 
-dependencies
-  - { role: cnstechnicalgroup.sqlserver-client }
-  - { role: cnstechnicalgroup.sqlserver-server }
-  - { role: cnstechnicalgroup.sqlserver-ha-config }
+dependencies:
+  - { role: cnstechnicalgroup.sqlserver-client, sudo: yes }
+  - { role: cnstechnicalgroup.sqlserver-server, sudo: yes }
+  - { role: cnstechnicalgroup.sqlserver-ha-config, sudo: yes }
