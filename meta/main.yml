@@ -8,7 +8,10 @@ galaxy_info:
   galaxy_tags:
     - sqlserver
     - database
-dependencies:
-  - { role: cns.sqlserver-client, sudo: yes  }
-  - { role: cns.sqlserver-server, sudo: yes }
-  - { role: cns.sqlserver-ha-config, sudo: yes }
+   - name: EL
+     versions:
+      - 7 
+dependencies
+  - { role: cnstechnicalgroup.sqlserver-client, sudo: yes  }
+  - { role: cnstechnicalgroup.sqlserver-server, sudo: yes }
+  - { role: cnstechnicalgroup.sqlserver-ha-config, sudo: yes }
