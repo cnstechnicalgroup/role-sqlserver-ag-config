@@ -9,6 +9,6 @@ galaxy_info:
     - sqlserver
     - database
 dependencies:
-  - { role: cns.sqlserver-client }
-  - { role: cns.sqlserver-server }
-  - { role: cns.sqlserver-ha-config }
+  - { role: cns.sqlserver-client, sudo: yes  }
+  - { role: cns.sqlserver-server, sudo: yes }
+  - { role: cns.sqlserver-ha-config, sudo: yes }
