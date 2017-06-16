@@ -13,9 +13,12 @@ Role Variables
 
 In the current version, you can specify the following variables:
 
-| Name                  | Default |                                                              |
-|-----------------------|---------|--------------------------------------------------------------|
-| sa_password           |   ---   | system administrator password for SQL Server install .  |
+| Name                  | Default |                                                               |
+|-----------------------|---------|---------------------------------------------------------------|
+| sa_password           |   ---   | system administrator password for SQL Server install        . |
+| availability_group    |   ---   | The name that will be assigned to the Availability Group    . |
+| primary_host          |   ---   | The name of the host that is being mirrored (principal)     . |
+| secondary_host        |   ---   | The name of the host that is mirroring (replica)            . |
 
 
 Dependencies
