@@ -50,7 +50,7 @@ Examples
 ---
 - name: cnstechnicalgroup.sqlserver-ag-config role 
   hosts: dbservers
-  sudo: yes
+  sudo: no
   roles: 
     - cnstechnicalgroup.sqlserver-ag-config
   gather_facts: no
