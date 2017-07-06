@@ -34,7 +34,7 @@ Depends upon
 
 
 
-Must be installed seperateley on ansible server
+Must be installed seperately on ansible server
 
 * [role-sqlserver-client](https://github.com/cnstechnicalgroup/role-sqlserver-client)
 
