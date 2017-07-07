@@ -3,8 +3,6 @@
 #sa_password: "{{ lookup('pipe', 'pass MSSQL/{{inventory_hostname}}/SA') }}"
 sa_password: "a_Str0ng_Passw0rd1"
 #availability_group: "ag1"
-#primary_host: "db1"
-#secondary_host: "db2"
 #use_hosts_file: yes
 #primary_host_ip: 192.168.33.10
 #secondary_host_ip: 192.168.33.20

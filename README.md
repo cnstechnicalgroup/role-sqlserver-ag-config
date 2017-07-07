@@ -19,13 +19,11 @@ In the current version, you can specify the following variables:
 |-----------------------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | sa_password           |   ---   | system administrator password for SQL Server install                                                                                                            .  |
 | availability_group    |   ---   | The name that will be assigned to the Availability Group                                                                                                        .  |
-| primary_host          |   ---   | The name of the host that is being mirrored (principal)                                                                                                         .  |
-| secondary_host        |   ---   | The name of the host that is mirroring (replica)                                                                                                                .  |
 | use_hosts_file        |   no    | Use /etc/hosts file for DNS resolution. A yes value will add an entry in /etc/hosts for the primary and secondary hosts participating in the mirror             .  |
 | primary_host_ip       |   ---   | IP Address for the principal server in Always On. This is required only if use_hosts_file is yes, required for dependency                                       .  |
 | secondary_host_ip     |   ---   | IP Address for the replica server in Always On. This is required only if use_hosts_file is yes, required for dependency                                         .  |
-| primary_host_name     |   ---   | Primary host name for the server that is being mirrored (principal), required for dependency                                                                    .  |
-| secondary_host_name   |   ---   | Secondary host name for the server that is mirroring (replica), required for dependency                                                                         .  |
+| primary_host_name     |   ---   | Primary host name for the server that is being mirrored (principal)                                                                                             .  |
+| secondary_host_name   |   ---   | Secondary host name for the server that is mirroring (replica)                                                                                                  .  |
 | sa_password           |   ---   | system administrator password for SQL Server install, required for dependency                                                                                   .  |
 
 
