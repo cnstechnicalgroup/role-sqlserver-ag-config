@@ -24,7 +24,6 @@ In the current version, you can specify the following variables:
 | secondary_host_ip     |   ---   | IP Address for the replica server in Always On. This is required only if use_hosts_file is yes, required for dependency                                         .  |
 | primary_host_name     |   ---   | Primary host name for the server that is being mirrored (principal)                                                                                             .  |
 | secondary_host_name   |   ---   | Secondary host name for the server that is mirroring (replica)                                                                                                  .  |
-| sa_password           |   ---   | system administrator password for SQL Server install, required for dependency                                                                                   .  |
 
 
 
