@@ -71,7 +71,7 @@ Examples
   sudo: no
   roles: 
     - cnstechnicalgroup.sqlserver-ag-config
-  gather_facts: no
+  gather_facts: yes
   environment:
    SA_PASSWORD: "{{sa_password}}"
    ACCEPT_EULA: "Y"
